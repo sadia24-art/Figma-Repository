@@ -32,9 +32,21 @@ const SlideShow = () => {
               Inner Peace
             </h1>
           </div>
-          <button className="absolute bottom-0 -translate-y-6 translate-x-[222px] bg-[#B88E2F] w-12 h-12 flex justify-center items-center opacity-100">
-            <Image  width={24} height={24}  src="/images/icons/arrowright.png" alt="arrowsvg" /
-          </button>
+          
+
+<button
+  className="absolute bottom-0 -translate-y-6 translate-x-[222px] bg-[#B88E2F] w-12 h-12 flex justify-center items-center opacity-100"
+  aria-label="Navigate right"
+>
+  <Image 
+    width={24} 
+    height={24} 
+    src="/images/icons/arrowright.png" 
+    alt="arrowsvg" 
+  />
+</button>
+
+
 
           <div className="">
             <Image  width={372} height={486}  src="/images/design3.png" alt="Design" className="absolute" />

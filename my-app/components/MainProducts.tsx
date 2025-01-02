@@ -38,9 +38,12 @@ const MainProducts = () => {
             {/* Hover effect container */}
             <div className="absolute inset-0 flex gap-6 flex-col justify-center items-center opacity-0 group-hover:opacity-75 bg-black transition-opacity duration-300 ease-in-out">
               <div className="opacity-100  flex gap-6 flex-col justify-center items-center ">
-                <button className=" font-poppins font-semibold text-[16px] text-[#B88E2F] h-12 w-52 bg-[#FFFFFF]">
-                  <Link href="/product"></Link>
-                </button>
+                <Link href="/product">
+  <button className="font-poppins font-semibold text-[16px] text-[#B88E2F] h-12 w-52 bg-[#FFFFFF]">
+    Go to Product
+  </button>
+</Link>
+
                 <div className="flex gap-4 font-poppins font-medium text-[16px]">
                   <button className="hover:bg-black hover:bg-opacity-50 hover:brightness-150 bg-transparent rounded-lg  flex gap-1">
                     <svg
